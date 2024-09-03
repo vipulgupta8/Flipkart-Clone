@@ -7,11 +7,14 @@ import Signup from './components/Signup'
 import Singleproduct from './components/Singleproduct'
 import Cart from './components/Cart';
 import Footer from './components/Footer';
+import { useState } from 'react';
 
 function App() {
+  
+
   return (
   <>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
